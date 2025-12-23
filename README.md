@@ -1,3 +1,11 @@
+📌 **Disclaimer — Fork for Intel XPU Support**
+
+This repository is a **fork of the original [Resemble-AI Chatterbox](https://github.com/resemble-ai/chatterbox)** text-to-speech project, modified with the explicit goal of adding **support for Intel GPUs using XPU backends** (including Intel Arc, integrated GPUs, and other Intel-accelerated devices). The original project targets generic CUDA/CUDA-compatible workflows; this fork focuses on making it work on Intel hardware and may diverge from upstream in both implementation and APIs.
+
+⚠️ **Not upstream-compatible by default:** Features, examples, and dependency versions may differ from the original Chatterbox. Your contributions toward upstreaming Intel XPU enhancements are welcome — but this fork is maintained primarily for Intel GPU enablement and experimentation.  
+
+See docs and examples below tailored for XPU environments.
+
 ![Chatterbox Turbo Image](./Chatterbox-Turbo.jpg)
 
 # Chatterbox TTS
