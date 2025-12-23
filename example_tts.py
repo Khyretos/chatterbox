@@ -4,8 +4,8 @@ from chatterbox.tts import ChatterboxTTS
 from chatterbox.mtl_tts import ChatterboxMultilingualTTS
 
 # Automatically detect the best available device
-if torch.cuda.is_available():
-    device = "cuda"
+if torch.xpu.is_available():
+    device = "xpu"
 elif torch.backends.mps.is_available():
     device = "mps"
 else:

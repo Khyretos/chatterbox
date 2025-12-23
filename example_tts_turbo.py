@@ -3,7 +3,7 @@ import torch
 from chatterbox.tts_turbo import ChatterboxTurboTTS
 
 # Load the Turbo model
-model = ChatterboxTurboTTS.from_pretrained(device="cuda")
+model = ChatterboxTurboTTS.from_pretrained(device="xpu")
 
 # Generate with Paralinguistic Tags
 text = "Oh, that's hilarious! [chuckle] Um anyway, we do have a new model in store. It's the SkyNet T-800 series and it's got basically everything. Including AI integration with ChatGPT and all that jazz. Would you like me to get some prices for you?"
